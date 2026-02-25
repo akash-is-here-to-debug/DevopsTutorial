@@ -6,7 +6,6 @@ public with sharing class calculator {
     }
 
     public static void add() {
-        System.debug('Addition of two numbers and');
+        System.debug('Addition of two numbers is here to be done and aa');
     }
-    
 }
