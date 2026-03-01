@@ -10,5 +10,15 @@ public with sharing class calculatorTest {
     static void testSub() {
         calculator.sub();
     }
+
+    @IsTest
+    static void testdiv() {
+        calculator.div();
+    }
+
+    @IsTest
+    static void testmul() {
+        calculator.mul();
+    }
 }
 
