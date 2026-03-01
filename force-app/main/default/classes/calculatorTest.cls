@@ -1,5 +1,14 @@
+@IsTest
 public with sharing class calculatorTest {
-    public calculatorTest() {
 
+    @IsTest
+    static void testAdd() {
+        calculator.add();
+    }
+
+    @IsTest
+    static void testSub() {
+        calculator.sub();
     }
 }
+
